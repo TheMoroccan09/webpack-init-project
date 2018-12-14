@@ -1,0 +1,4 @@
+node_modules/
+.sonarlink/
+dist/
+**-lock**

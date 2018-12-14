@@ -1,0 +1,24 @@
+{
+  "name": "webpack-init-project",
+  "version": "0.0.1",
+  "description": "Webpack Init Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMoroccan09/webpack-init-project.git"
+  },
+  "author": "@Themoroccan09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMoroccan09/webpack-init-project/issues"
+  },
+  "homepage": "https://github.com/TheMoroccan09/webpack-init-project#readme",
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
