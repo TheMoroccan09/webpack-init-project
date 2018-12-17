@@ -18,5 +18,13 @@ module.exports = {
     new CopyWebpackPlugin([
       {from: './index.html', to: '../index.html', toType: 'file'}
     ])
-  ]
+  ],
+  module: {
+    rules:[
+      {
+          test:/\.css$/,
+          use:['style-loader','css-loader']
+      }]
+  }
+
 };
